@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="w-screen flex-col bg-black px-6 py-20 text-white lg:flex lg:px-10 xl:px-24 mt-20">
           <div className="lg:flex lg:flex-row lg:justify-between">
             <div>
-              <a href="/" className="inline-block max-w-full">
+              <a href="would-you-rather.com" className="inline-block max-w-full">
                 Would You Rather
               </a>
               <p className="font-inter mt-4 max-w-[350px] text-base font-light text-gray-400">

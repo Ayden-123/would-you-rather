@@ -1,48 +1,48 @@
 export const navLinks = [
   {
-    label: "All",
+    label: "Random",
     route: "/"
   },
   {
     label: "Food",
-    route: "/food"
+    route: "/would-you-rather-questions-for-kids/food"
   },
   {
     label: "Sport",
-    route: "/sport"
+    route: "/would-you-rather-questions-for-kids/sport"
   },
   {
     label: "Family",
-    route: "/family"
+    route: "/would-you-rather-questions-for-kids/family"
   },
   {
     label: "Life",
-    route: "/life"
+    route: "/would-you-rather-questions-for-kids/life"
   },
   {
     label: "Nature",
-    route: "/nature"
+    route: "/would-you-rather-questions-for-kids/nature"
   },
   {
     label: "Science",
-    route: "/science"
+    route: "/would-you-rather-questions-for-kids/science"
   },
   {
     label: "Animals",
-    route: "/animals"
+    route: "/would-you-rather-questions-for-kids/animals"
   },
   {
     label: "Entertainment",
-    route: "/entertainment"
+    route: "/would-you-rather-questions-for-kids/entertainment"
   },
   {
     label: "Education",
-    route: "/education"
+    route: "/would-you-rather-questions-for-kids/education"
   }
 ]
 
 export const wyrArr = {
-  all: [
+  random: [
     "Would you rather have the ability to fly like a bird or swim like a dolphin?",
     "Would you rather have a pet dragon or a pet unicorn?",
     "Would you rather explore outer space or dive to the bottom of the ocean?",
