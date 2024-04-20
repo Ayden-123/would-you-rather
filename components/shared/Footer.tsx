@@ -10,19 +10,19 @@ const Footer = () => {
                 Would You Rather
               </a>
               <p className="font-inter mt-4 max-w-[350px] text-base font-light text-gray-400">
-                Continuously updating the 'Would You Rather' series.
+                Continuously updating the &apos;Would You Rather&apos; series.
               </p>
             </div>
             <div className="flex grow flex-row flex-wrap lg:mx-10 lg:flex-nowrap lg:justify-center">
               <div className="mb-5 mr-8 flex max-w-[200px] grow basis-[100px] flex-col space-y-5 lg:mx-10">
                 <div className="font-inter font-medium">FRIENDS</div>
                   <a
-                  href="https://anime-maker.com/"
-                  target="_blank"
-                  className="font-inter font-light text-gray-500"
-                >
-                  Anime Maker
-                </a>
+                    href="https://anime-maker.com/"
+                    target="_blank"
+                    className="font-inter font-light text-gray-500"
+                  >
+                    Anime Maker
+                  </a>
               </div>
               <div className="mb-5 mr-8 flex max-w-[200px] grow basis-[100px] flex-col space-y-5 lg:mx-10">
                 <div className="font-inter font-medium">CREDIT TO</div>

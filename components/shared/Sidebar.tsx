@@ -7,14 +7,14 @@ import { usePathname } from 'next/navigation'
 import { navLinks } from '@/constants'
 
 const Sidebar = () => {
+    let pathName = usePathname()
     return (
         <div className="mt-10 mb-10 ml-5 bg-stone-300">
             <div className='p-2 font-bold'>In This Page</div>
-            
             <div className="flex flex-col">
                 <ul className="hidden flex-col items-start md:flex">
                     {navLinks.map((link) => {
-                        const isActive = usePathname() === link.route
+                        const isActive = pathName === link.route
                         return (
                             <li key={link.route}>
                                 <Link className={`
