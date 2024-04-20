@@ -10,8 +10,8 @@ const Page = async () => {
         {arr != null && arr.length > 0 ? (
           <div>
             {arr.map((item, idx) => (
-              <div className=''>
-                <li key={idx}
+              <div className='' key={idx}>
+                <li 
                   className="mt-5">
                   {item}
                 </li>
