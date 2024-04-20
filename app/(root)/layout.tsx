@@ -14,7 +14,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   return {
     title: "Would You Rather Questions For Kids | Spark your child's creativity.",
-    description: "If you're looking for an activity to keep your kids thinking, look no further than our roundup of thought-provoking &quot;would you rather?&quot; questions for kids",
+    description: "If you're looking for an activity to keep your kids thinking, look no further than our roundup of thought-provoking 'would you rather?' questions for kids",
     icons: "/favicon.ico",
     metadataBase: new URL("https://would-you-rather.com")
   };
